@@ -1,0 +1,32 @@
+.header{
+    height:200px;
+    text-align:center;
+    line-height:200px;
+    background:#FF0000;
+}
+ 
+.menu{
+    background:#FF0000;
+    height:40px;
+    margin-bottom:15px;
+    border-radius: 10px;
+}
+.menu ul li{
+    float:left;
+    list-style:none
+}
+.menu ul li a{
+    line-height:40px;
+    display:block;
+    padding:0 10px;
+}
+ 
+.menu   {
+    height:90px;
+    background:#FF0000;
+}
+
+header
+{
+ background: :106, 93, 156;
+}
