@@ -13,7 +13,7 @@
 }
 .menu ul li{
     float:left;
-    list-style:none
+    list-style:none;
 }
 .menu ul li a{
     line-height:40px;
@@ -28,5 +28,5 @@
 
 header
 {
- background: :106, 93, 156;
+    background-color: #cecece;
 }
