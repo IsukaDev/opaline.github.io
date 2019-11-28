@@ -1,0 +1,119 @@
+.main-color {
+	background-color: #D62718;
+	color: white;
+
+}
+
+address {
+	padding: 20px;
+	justify-content: flex-start;
+}
+
+header {
+	font-size: medium;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+header div {
+	width: 70%;
+}
+
+header  div:first-child {
+	width: 120px;
+	height: 120px;
+}
+
+header p {
+	font-size: 30px;
+}
+
+h1{
+	margin:2px;
+	font-size: 50px;
+	text-shadow: white;
+}
+
+.post{
+	background-color: #cecece;
+	width: 600px;
+	padding: 10px 20px;
+	text-align: justify;
+
+}
+
+h2, h4 {
+	font-family: 'Arial';
+
+}
+
+main {
+	display: flex;
+	width: 100%;
+	margin-bottom: -10px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	font-size: 25px;
+}
+
+header+div {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+header+div > div {
+	width: 200px;
+	padding-left: 20px;
+	flex-wrap: wrap;
+}
+
+section {
+	flex-grow: 1;
+	display: block;
+	margin: 0px 10px 10px;
+}
+
+#presentation {
+	width: 100%;
+}
+
+#formation {
+	height: 756px;
+}
+
+li strong {
+	display: block;
+}
+
+#projet {
+	width: 100%;
+}
+
+img {
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	padding-left: 3%;
+	margin-block-end: auto;
+}
+
+.footer{
+	margin-top: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.hidden-on-phone
+	{
+		display: none;
+
+	}
+}
