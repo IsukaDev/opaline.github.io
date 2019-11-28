@@ -1,17 +1,15 @@
-.main-color 
-{
+.main-color {
 	background-color: #D62718;
 	color: white;
 
 }
 
-address
-{
+address {
 	padding: 20px;
 	justify-content: flex-start;
 }
-header
-{
+header {
+	font-size: medium;
 	text-align: center;
 	align-items: center;
 	display: flex;
@@ -34,28 +32,25 @@ header p {
 	font-size: 30px;
 }
 
-h1
-{
+h1{
 	margin:2px;
 	font-size: 50px;
 	text-shadow: white;
 }
 
-.post
-{
+.post{
 	background-color: #cecece;
 	width:300px;
 	padding: 10px 20px;
 	text-align: justify;
+
 }
 
-h2, h4
-{
+h2, h4 {
 	font-family: 'Arial';
 }
 
-main
-{
+main {
 	display: flex;
 	width: 100%;
 	margin-bottom: -10px;
@@ -63,36 +58,38 @@ main
 	flex-wrap: wrap;
 }
 
-header+div
-{
+header+div {
 	display: flex;
 	flex-wrap: nowrap;
 }
 
-header+div > div
-{
+header+div > div {
 	width: 200px;
 	padding-left: 20px;
 	flex-wrap: wrap;
-	
 }
 
-section
-{
+section {
 	flex-grow: 1;
-	flex-basis: 300px;
 	display: block;
 	margin: 0px 10px 10px;
-
 }
 
-li strong
-{
+#presentation {
+	width: 100%;
+	font-size: large;
+}
+
+#formation {
+	height: 756px;
+	font-size: large;
+}
+
+li strong {
 	display: block;
 }
 
-img
-{
+img {
 	border-radius: 50%;
 }
 
