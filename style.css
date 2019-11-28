@@ -8,6 +8,7 @@ address {
 	padding: 20px;
 	justify-content: flex-start;
 }
+
 header {
 	font-size: medium;
 	text-align: center;
@@ -40,7 +41,7 @@ h1{
 
 .post{
 	background-color: #cecece;
-	width:300px;
+	width: 600px;
 	padding: 10px 20px;
 	text-align: justify;
 
@@ -48,6 +49,7 @@ h1{
 
 h2, h4 {
 	font-family: 'Arial';
+
 }
 
 main {
@@ -56,6 +58,7 @@ main {
 	margin-bottom: -10px;
 	align-items: flex-start;
 	flex-wrap: wrap;
+	font-size: 25px;
 }
 
 header+div {
@@ -77,20 +80,26 @@ section {
 
 #presentation {
 	width: 100%;
-	font-size: large;
 }
 
 #formation {
 	height: 756px;
-	font-size: large;
 }
 
 li strong {
 	display: block;
 }
 
+#projet {
+	width: 100%;
+}
+
 img {
 	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	padding-left: 3%;
+	margin-block-end: auto;
 }
 
 .footer{
