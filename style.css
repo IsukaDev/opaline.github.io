@@ -1,95 +1,75 @@
-.main-color {
-	background-color: #D62718;
-	color: white;
-
+body {
+    font-size: 200%;
+    font-family: 'Liberation Sans', Arial, sans-serif;
 }
 
-header {
-	font-size: medium;
-	text-align: center;
-	align-items: center;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 10px;
-	margin-bottom: 20px;
+img {
+    border-radius: 50%;
 }
 
+header, footer {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D62718;
+    color: white;
+}
+
+/*
+ * Photo de profil
+ */
+header img {
+    width: 180px;
+    display: block;
+}
+
+/*
+ * Titre dans le header
+ */
 header div {
-	width: 70%;
-}
-
-header  div:first-child {
-	width: 180px;
-}
-
-header p {
-	font-size: 30px;
-}
-
-#presentation {
-	width: 100%;
-}
-
-h1{
-	margin:2px;
-	font-size: 50px;
-	text-shadow: white;
-}
-
-h2, h4 {
-	font-family: 'Arial';
-}
-
-.post{
-	background-color: #cecece;
-	width: 600px;
-	padding: 10px 20px;
-	text-align: justify;
+    width: 70%;
+    text-align: center;
 }
 
 main {
-	display: flex;
-	width: 100%;
-	margin-bottom: -10px;
-	align-items: stretch;
-	flex-wrap: wrap;
-	font-size: 25px;
-}
-
-header+div {
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-header+div > div {
-	width: 200px;
-	padding-left: 20px;
-	flex-wrap: wrap;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 8px -8px;
 }
 
 section {
-	flex-grow: 1;
-	display: block;
-	margin: 0px 10px 10px;
-}
-
-header img {
-	border-radius: 50%;
-	width: 100%;
-	height: 100%;
+    background-color: #cecece;
+    color: black;
+    padding: 12px;
+    margin: 8px;
+    flex-grow: 1;
+    flex-basis: 700px;
 }
 
 section img {
-	border-radius: 50%;
-	width: 350px;
-	height: 350px;
-	padding-left: 3%;
+    height: 300px;
+    width: 300px;
 }
 
-.footer{
-	margin-top: 20px;
-	padding: 10px;
-	display: flex;
-	justify-content: space-around;
+#presentation {
+    flex-basis: 100%;
+}
+
+footer > a {
+    display: block;
+    color: inherit;
+}
+
+.material-icons {
+    font-size: 30px;
+}
+
+.trademarked-img {
+    display: inline-block;
+    border-radius: 0;
+    height: 30px;
 }
