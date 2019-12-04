@@ -62,6 +62,7 @@ section img {
 footer > a {
     display: block;
     color: inherit;
+    float:left;
 }
 
 .material-icons {
