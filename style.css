@@ -80,20 +80,15 @@ footer > a {
     color:#FFF;
     display:block;
     text-decoration:none;
-    margin: auto;
+    margin: 100;
     border-radius:5px;
-    border:solid  #D62718;
     background:#D62718;
     text-align:center;
     padding:10px 20px;
-    -webkit-box-shadow: 0px 9px 0px #84261a;
-    -moz-box-shadow: 0px 9px 0px #84261a;
     box-shadow: 0px 9px 0px #84261a;
     display: block;
 }
 .push_button:active{
-    -webkit-box-shadow: 0px 2px 0px #84261a;
-    -moz-box-shadow: 0px 2px 0px #84261a;
     box-shadow: 0px 2px 0px #84261a;
     position:relative;
     top:7px;
