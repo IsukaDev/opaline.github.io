@@ -65,6 +65,10 @@ footer > a {
     float:left;
 }
 
+#projet {
+    display:inline-block;
+}
+
 .material-icons {
     font-size: 30px;
 }
