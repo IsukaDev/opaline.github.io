@@ -1,6 +1,7 @@
 body {
     font-size: 200%;
     font-family: 'Liberation Sans', Arial, sans-serif;
+    padding: 200px;
 }
 
 img {
@@ -82,7 +83,7 @@ footer > a {
 }
 
 .material-icons {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .trademarked-img {
