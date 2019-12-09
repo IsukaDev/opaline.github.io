@@ -42,6 +42,22 @@ main {
     margin: 8px -8px;
 }
 
+#competences  > div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#competences > div > div {
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+#competences > div > div > img {
+    display: block;
+    margin: auto;
+    width: 180px;
+}
 section {
     background-color: #cecece;
     color: black;
