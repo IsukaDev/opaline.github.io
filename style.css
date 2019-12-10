@@ -17,6 +17,11 @@ header, footer {
     align-items: center;
     background-color: #D62718;
     color: white;
+
+}
+header{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 /*
@@ -129,6 +134,10 @@ footer > a {
     display: block;
 }
 
+footer{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 @media screen and (max-width:960px){
 	li {
 		width:100%;
