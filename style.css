@@ -40,20 +40,20 @@ header div {
     text-align: center;
 }
 
-#menu{
+#presentation{
     background-color: rgb(241, 142, 81);
 }
-#menu ul{
+header ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#menu li{
+header li{
      display: inline;
 }
   
-#menu li a {
+header li a {
     display: block;
     color: white;
     text-align: center;
