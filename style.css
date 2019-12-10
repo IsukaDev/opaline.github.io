@@ -64,6 +64,7 @@ section img {
 
 #presentation {
     flex-basis: 100%;
+    background-color: rgb(241, 142, 81);
 }
 
 #competences  ul {
@@ -89,6 +90,10 @@ footer > a {
     display: block;
     color: inherit;
     float:left;
+}
+
+#projet{
+    background-color: rgb(241, 142, 81);
 }
 
 #projet > div {
