@@ -1,11 +1,14 @@
 body {
     font-size: 180%;
     font-family: 'Liberation Sans', Arial, sans-serif;
-    padding: 150px;
+    padding: 100px;
+    min-height:100vh;
 }
 
 img {
     border-radius: 50%;
+    width: 50px;
+	height: 50px;
 }
 
 header, footer {
@@ -71,8 +74,8 @@ section img {
 	display:inline-flex;
 	flex-wrap:wrap;
 	margin-right:20px;
-	justify-content:center;
-}
+    justify-content:center;
+    }
 
 footer > a {
     display: block;
@@ -83,17 +86,21 @@ footer > a {
 #projet > div {
     display: flex;
     flex-flow: row wrap;
+    
 }
 
 #projet > div > div {
     text-align: center;
     flex-grow: 1;
     flex-basis: 400px;
+    
 }
 
 #projet > div > div > img{
     display: block;
     margin: auto;
+    height: 300px;
+    width: 300px;  
 }
 
 .material-icons {
@@ -117,10 +124,6 @@ footer > a {
     text-align:center;
     padding:10px 20px;
     display: block;
-}
-
-.push_button:active{
-    color: #BBBBBB;
 }
 
 @media screen and (max-width:960px){
