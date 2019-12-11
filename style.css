@@ -40,16 +40,16 @@ header div {
     text-align: center;
 }
 
-#presentation{
+#presentation {
     background-color: rgb(241, 142, 81);
 }
-header ul{
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-header li{
+header li {
      display: inline;
 }
   
