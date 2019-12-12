@@ -71,6 +71,12 @@ section {
     flex-basis: 700px;
 }
 
+@media screen and (min-width:1640px) and (max-width:4000px) {
+    section:last-child {
+        flex-grow: 0.1;
+    }
+}
+
 section img {
     height: 300px;
     width: 300px;
