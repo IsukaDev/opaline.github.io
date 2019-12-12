@@ -19,10 +19,6 @@ header, footer {
     color: white;
 
 }
-header{
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
 
 /*
  * Photo de profil
@@ -40,9 +36,6 @@ header div {
     text-align: center;
 }
 
-#presentation {
-    background-color: rgb(241, 142, 81);
-}
 header ul {
     list-style-type: none;
     margin: 0;
@@ -85,12 +78,17 @@ section img {
 
 #presentation {
     flex-basis: 100%;
+    font-size: 0.8em;
+}
+
+#expériences {
+    line-height: 1.5px;
 }
 
 #competences  ul {
 	margin:0;
 	text-align:center;
-	padding:0;
+    padding:0;
 }
 #competences  li {
 	width:280px;
@@ -104,16 +102,13 @@ section img {
 #competences img {
     height: 150px; 
     width: 150px;  
+    border-radius: 0;
 }
 
 footer > a {
     display: block;
     color: inherit;
     float:left;
-}
-
-#projet{
-    background-color: rgb(241, 142, 81);
 }
 
 #projet > div {
@@ -159,10 +154,6 @@ footer > a {
     display: block;
 }
 
-footer{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
 @media screen and (max-width:960px){
 	li {
 		width:100%;
