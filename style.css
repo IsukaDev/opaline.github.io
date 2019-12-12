@@ -1,7 +1,7 @@
 body {
-    font-size: 180%;
+    font-size: 150%;
     font-family: 'Liberation Sans', Arial, sans-serif;
-    padding: 100px;
+    padding: 60px;
     min-height:100vh;
 }
 
@@ -78,7 +78,6 @@ section img {
 
 #presentation {
     flex-basis: 100%;
-    font-size: 0.8em;
 }
 
 #expériences {
@@ -89,20 +88,20 @@ section img {
 	margin:0;
 	text-align:center;
     padding:0;
-
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
-#competences  li {
+
+#competences ul > li {
 	width:280px;
-	padding:10px;
-	display:inline-flex;
-	flex-wrap:wrap;
-	margin-right:20px;
+	display: block;
     justify-content:center;
 }
 
 #competences img {
-    height: 150px; 
-    width: 150px;  
+    height: 100px; 
+    width: 100px; 
     border-radius: 0;
 }
 
@@ -110,6 +109,10 @@ footer > a {
     display: block;
     color: inherit;
     float:left;
+}
+
+#projet {
+    flex-basis: 100%;
 }
 
 #projet > div {
@@ -139,8 +142,9 @@ footer > a {
 .trademarked-img {
     display: inline-block;
     border-radius: 0;
-    height: 30px;
+    height: 44px;
 }
+
 .push_button{
     position:relative;
     width:200px;

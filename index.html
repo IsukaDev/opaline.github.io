@@ -3,17 +3,15 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, 
-	minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=3">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="style.css" />
 	<title>Portfolio de Anne Géraud</title>
 </head>
 
-<body>
-	<balise id="hautdepage"></balise>
+<body id="hautdepage">
 	<header>
-		<img src="images/moi.jpg"/>
+		<img src="images/moi.jpg" alt="Portrait d'Anne Géraud"/>
 		<div>
 			<h1>Anne Géraud</h1>
 			<p>
@@ -21,9 +19,9 @@
 			</p>
 		</div>
 		<ul>
+			<li><a href="#projet">Projets</a></li>
 			<li><a href="#competences">Compétences</a></li>
 			<li><a href="#formation">Formations</a></li>
-			<li><a href="#projet">Projets</a></li>
 		</ul> 
 	</header>
 	<main>
@@ -41,11 +39,11 @@
 			</p>
 		</section>
 		<section class="secondary-color" id="projet">
-			<h2 id="projet">Mes projet Professionnels</h2>
+			<h2>Mes projets Professionnels</h2>
 			<div>
 				<div>
-					<a href="cv_anne_geraud.pdf" ><img src="images/cv.jpg" alt="Photo du Portfolio"/></a>
-					<p>Et oui mon premier projet est le site !</p>
+					<a href="cv_anne_geraud.pdf" ><img src="images/cv.jpg" alt="Photo du CV"/></a>
+					<p>Et oui mon premier projet est ce site !</p>
 				</div>
 				<div>
 					<img src="images/binaryCodeScreen.jpg" alt="Photo de Neo après la pilule rouge" />
@@ -62,133 +60,177 @@
 			</div>
 		</section>	
 		<section class="secondary-color" id="competences">
-			<h2 id="competences">Mes compétences</h2>
+			<h2>Mes compétences</h2>
 			<h3> Programmation</h3>
 				<ul>
-					<li><img src="icones_utiles_cv/js.png" alt="Image du logo de javascript"/></li>
-					<p>JavaScript</p>
-					<li><img src="icones_utiles_cv/logoC++.png" alt="Image du logo de C++"/></li>
-					<p>C++</p>
-					<li><img src="icones_utiles_cv/html5.png" alt="Image du logo du HTML5"></li>
-					<p>HTML 5</p>
-					<li><img src="icones_utiles_cv/css3.png" alt="Image du logo du CSS3"></li>
-					<p>CSS 3</p>
-					<li><img src="icones_utiles_cv/nodejs.png" alt="Image du logo de node.js"></li>
-					<p>Node.js</p>
-				</ul>
+					<li>
+						<img src="images/js.png" alt="Image du logo de javascript"/>
+						<p>JavaScript</p>
+					</li>
+					<li>
+						<img src="images/logoC++.png" alt="Image du logo de C++" />
+						<p>C++</p>
+					</li>
+					<li>
+						<img src="images/html5.png" alt="Image du logo du HTML5">
+						<p>HTML 5</p>
+					</li>
+					<li>
+						<img src="images/css3.png" alt="Image du logo du CSS3">
+						<p>CSS 3</p>
+					</li>
+					<li>
+						<img src="images/nodejs.png" alt="Image du logo de node.js">
+						<p>Node.js</p>
+					</li>
+				</ul>	
 			<h3>Logiciels</h3>
 				<ul>
-					<li><img src="icones_utiles_cv/LogoGit.png" alt="Image du logo de Git"/></li>
-					<p>Git</p>
-					<li><img src="icones_utiles_cv/visualStudio.png" alt="Image du logo de Visual Studio Code"/></li>
-					<p>Visual Studio Code</p>
-					<li><img src="icones_utiles_cv/linux.png" alt="Image du logo de Linux"></li>
-					<p>Linux</p>
-					<li><img src="icones_utiles_cv/trello.png" alt="Image du logo de Trello"></li>
-					<p>Trello</p>
-					<li><img src="icones_utiles_cv/libreOffice.png" alt="Image du logo de Libre Office"></li>
-					<p>Libre Office</p>
-					<li><img src="icones_utiles_cv/windows.png" alt="Image du logo de Windows"></li>
-					<p>Windows</p>
-					<li><img src="icones_utiles_cv/LogoInkscape.png" alt="Image du logo de Inkscape"></li>
-					<p>Inkscape</p>
+					<li>
+						<img src="images/LogoGit.png" alt="Image du logo de Git" />
+						<p>Git</p>
+					</li>
+					<li>
+						<img src="images/visualStudio.png" alt="Image du logo de Visual Studio Code" />
+						<p>Visual Studio Code</p>
+					</li>
+					<li>
+						<img src="images/linux.png" alt="Image du logo de Linux">
+						<p>Linux</p>
+					</li>
+					<li>
+						<img src="images/trello.png" alt="Image du logo de Trello">
+						<p>Trello</p>
+					</li>
+					<li>
+						<img src="images/libreOffice.png" alt="Image du logo de Libre Office">
+						<p>Libre Office</p>
+					</li>
+					<li>
+						<img src="images/windows.png" alt="Image du logo de Windows">
+						<p>Windows</p>
+					</li>
+					<li>
+						<img src="images/LogoInkscape.png" alt="Image du logo de Inkscape">
+						<p>Inkscape</p>
+					</li>
 				</ul>
 			</section>
 			<section class="secondary-color" id="general">
 			<h3>Mes compétences général</h3>
 			<h4>Effectuer des tâches administratives</h4>
-			<p>
-				Gestion et contrôle des commandes et des livraisons Comparaison des offres pour les produits et services
-				Réalisation et contrôle de statistiques simples
-			</p>
-
+				<p>
+					Gestion et contrôle des commandes et des livraisons Comparaison des offres pour les produits et services
+					Réalisation et contrôle de statistiques simples
+				</p>
 			<h4>Conseil et relation client</h4>
-			<p>
-				Gestion des conflits et des réclamations.
-				Présentation et mise en valeur des prestations et services proposés
-			</p>
-
+				<p>
+					Gestion des conflits et des réclamations.
+					Présentation et mise en valeur des prestations et services proposés
+				</p>
 			<h4>Formations des nouvelles recrues</h4>
-			<p>
-				Suivi de la formation et de l'integration.
-				Transmission des connaissances du métier.
+				<p>
+					Suivi de la formation et de l'integration.
+					Transmission des connaissances du métier.
+				</p>
 			</section>
 		<section class="secondary-color" id="atouts">
 			<h2>Mes atouts</h2>
 			<ul>
-				<li><strong>Capacité d'adaptation</strong></li>
-				<p> 
-					Adaptation de mon approche en fonction des changements qui surviennent.
-					Comprendre et evaluer différents points de vue.
-				</p>
+				<li>
+					<strong>Capacité d'adaptation</strong>
+					<p>
+						Adaptation de mon approche en fonction des changements qui surviennent.
+						Comprendre et evaluer différents points de vue.
+					</p>
+				</li>
 				
-				<li><strong>Curiosité</strong></li>
-				<p>
-					Soif de savoir, de connaître, de comprendre et d'observer.
-				</p>
-				<li><strong>Persévérance</strong></li>
-				<p>
-					Volonté d'atteindre les résultats visés sans abandonner facilement.
-				</p>
-				<li><strong>Communication</strong></li>
-				<p>
-					Intereaction efficace avec d'autres personnes et d'autres groupes.
-					Adaptation du vocabulaire et le message à son auditoire.
-					Respect des opinions des des autres.
-				</p>
-				<li><strong>Travail en équipe</strong></li>
-				<p>
-					Apprécie la collaboration avec mes collègues ou les autres personnes impliquées dans un projet commun.
-					Faire partie d'une équipe et de travailler en coopération sait gagner la confiance des autres.
-					Encourager la participation et le partage des connaissances.
-				</p>
-				<li><strong>Rigoureuse</strong></li>
-				<p>
-					Personne ponctuelle, créative, réactif et consciencieuse dans ce que j'entreprends.
-				</p>
-				<li><strong>Autonomie</strong></li>
-				<p>
-					Trouver les solutions par moi même et par la suite demander de l'aide si vraiment cela est nécessaire.
-				</p>
+				<li>
+					<strong>Curiosité</strong>
+					<p>
+						Soif de savoir, de connaître, de comprendre et d'observer.
+					</p>
+				</li>
+				<li>
+					<strong>Persévérance</strong>
+					<p>
+						Volonté d'atteindre les résultats visés sans abandonner facilement.
+					</p>
+				</li>
+				<li><strong>Communication</strong>
+					<p>
+						Intereaction efficace avec d'autres personnes et d'autres groupes.
+						Adaptation du vocabulaire et le message à son auditoire.
+						Respect des opinions des des autres.
+					</p>
+				</li>
+				<li><strong>Travail en équipe</strong>
+					<p>
+						Apprécie la collaboration avec mes collègues ou les autres personnes impliquées dans un projet commun.
+						Faire partie d'une équipe et de travailler en coopération sait gagner la confiance des autres.
+						Encourager la participation et le partage des connaissances.
+					</p>
+				</li>
+				<li><strong>Rigoureuse</strong>
+					<p>
+						Personne ponctuelle, créative, réactif et consciencieuse dans ce que j'entreprends.
+					</p>
+				</li>
+				<li><strong>Autonomie</strong>
+					<p>
+						Trouver les solutions par moi même et par la suite demander de l'aide si vraiment cela est nécessaire.
+					</p>
+				</li>
 			</ul>
 		</section>
 		<section class="secondary-color" id="formation">
-				<h2 id="formation">Mes formations</h2>
+			<h2>Mes formations</h2>
 			<ul>
 				<li>
-					<strong>Formation développeuse informatique</strong>
-					2019 - 2021<br>
-					Ecole du supérieure de l'alternance CESI<br>
-					Bordeaux, France
+					<strong>Formation développeuse informatique</strong> 2019 - 2021
+					<p>
+						Ecole du supérieure de l'alternance CESI<br>
+						Bordeaux, France
+					</p>
 				</li>
 				<li>
-					<strong>Certificat de réussite</strong> 2019<br>
-					Apprenez à créer votre site web avec HTML5 et CSS3<br>
-					OpenClassrooms
+					<strong>Certificat de réussite</strong> 2019
+					<p>
+						Apprenez à créer votre site web avec HTML5 et CSS3<br>
+						OpenClassrooms
+					</p>
 				</li>
 				<li>
-					<strong> Certificat fédéral de capacité</strong> 2009 - 2013 <br>
-					Gestionnaire en Intendance <br>
-					Maison de retraite médicalisé Les Arbres<br>
-					Chaux-de-Fonds, Suisse <br>
-					<p>Formation pluridisciplinaire en alternance,<br>
+					<strong> Certificat fédéral de capacité</strong> 2009 - 2013
+					<p>
+						Gestionnaire en Intendance <br>
+						Maison de retraite médicalisé Les Arbres<br>
+						Chaux-de-Fonds, Suisse <br>
+						Formation pluridisciplinaire en alternance,<br>
 						à la supervision de l'entretien du linge et des locaux<br>
-						<em>Reconnu équivalent à un diplôme niveau IV</em></p>
+						<em>Reconnu équivalent à un diplôme niveau IV</em>
+					</p>
 				</li>
 				<li>
-					<strong>Attestation de Formation Professionnelle </strong> 2013<br>
-					Option Animaux sauvages<br>
-					Institut de Formation en soins Animaliers
+					<strong>Attestation de Formation Professionnelle </strong> 2013
+					<p>
+						Option Animaux sauvages<br>
+						Institut de Formation en soins Animaliers
+					</p>
 				</li>
 				<li>
-					<strong>Attestation de Formation Professionnelle </strong>2010<br>
-					OptionNouveaux animaux de compagnie<br>
-					Institut de Formation en soins Animaliers
+					<strong>Attestation de Formation Professionnelle </strong>2010
+					<p>
+						Option Nouveaux animaux de compagnie<br>
+						Institut de Formation en soins Animaliers
+					</p>
 				</li>
 				<li>
-					<strong>Attestation de Formation Professionnelle </strong>2009<br>
-					Auxiliaire de santé<br>
-					Institut de Formation en soins Animaliers
+					<strong>Attestation de Formation Professionnelle </strong>2009
+					<p>
+						Auxiliaire de santé<br>
+						Institut de Formation en soins Animaliers
+					</p>
 				</li>
 			</ul>
 		</section>
@@ -196,43 +238,47 @@
 			<h2> Mon expérience</h2>
 			<ul>
 				<li>
-					<strong>Gestionnaire en Intendance</strong>
-					2009 - 2013<br>
-					Maison de retraite médicalisé Les Arbres<br>
-					Chaux-de-Fonds, Suisse
+					<strong>Gestionnaire en Intendance</strong> 2009 - 2013
+					<p>
+						Maison de retraite médicalisé Les Arbres<br>
+						Chaux-de-Fonds, Suisse
+					</p>
 				</li>
 				<li>
-					<strong> Commis de cuisine</strong>
-					2011 - 2012<br>
-					Restauration collective DSR<br>
-					Chaux-de-Fonds, Suisse
+					<strong> Commis de cuisine</strong> 2011 - 2012
+					<p>
+						Restauration collective DSR<br>
+						Chaux-de-Fonds, Suisse
+					</p>
 				</li>
 				<li>
-					<strong>Employée de blanchisserie industrielle</strong>
-					2010 - 2011<br>
-					Blanchâtel SA<br>
-					Chaud-de-Fonds, Suisse
+					<strong>Employée de blanchisserie industrielle</strong> 2010 - 2011
+					<p>
+						Blanchâtel SA<br>
+						Chaud-de-Fonds, Suisse
+					</p>
 				</li>
 				<li>
-					<strong>Assitante vétérinaire </strong>
-					Septembre 2006 - juin 2007<br>
-					Cabinet vétérinaire Henchoz<br>
-					Le Locle, Suisse
+					<strong>Assitante vétérinaire </strong> Septembre 2006 - juin 2007
+					<p>
+						Cabinet vétérinaire Henchoz<br>
+						Le Locle, Suisse
+					</p>
 				</li>
 			</ul>
 		</section>
 		
 	</main>
 	<footer>
-		<a href="cv_anne_geraud.pdf" download="toto.pdf"> <i class="material-icons">picture_as_pdf</i></a> <!--vérifier en ligne si ça télécharge-->
+		<a href="cv_anne_geraud.pdf"> <i class="material-icons">picture_as_pdf</i></a> 
 		<a href="mailto:annegeraud@gmail.com"><i class="material-icons">email</i></a>
-		<a href="https://www.linkedin.com/in/anne-géraud/"><img class="trademarked-img" src="images/LI-In-Bug.png"></a>
-		<!-- <a href="https://github.com/Kallypige"> <img class="material-icons"src="github.png"></a>-->
-		<a href="#hautdepage" class="push_button" a>
+		<a href="https://www.linkedin.com/in/anne-géraud/"><img class="trademarked-img" src="images/LI-In-Bug.png" alt="Logo de LinkedIn"></a>
+		<a href="https://github.com/Kallypige"> <img class="trademarked-img" src="images/github.png" alt="Logo de GitHub"></a>
+		<a href="#hautdepage" class="push_button">
 			Haut de page 
 		</a>
 	</footer>
-	<script type="text/javascript" src="main.js"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>
